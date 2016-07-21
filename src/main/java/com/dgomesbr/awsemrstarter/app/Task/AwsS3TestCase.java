@@ -9,9 +9,6 @@ import com.amazonaws.regions.Regions;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3Client;
 import com.amazonaws.services.s3.model.S3ObjectSummary;
-import com.dgomesbr.awsemrstarter.app.Jobs.runner.JobRunner;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Import;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,8 +18,8 @@ import java.util.List;
  * Created by User on 2016/7/21.
  */
 
-@SpringBootApplication
-@Import(JobRunner.class)
+//@SpringBootApplication
+//@Import(JobRunner.class)
 public class AwsS3TestCase {
 
 
